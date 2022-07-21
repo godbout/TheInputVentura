@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9102889C288967EA00D4D6C4 /* TheInputVenturaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9102889B288967EA00D4D6C4 /* TheInputVenturaApp.swift */; };
-		9102889E288967EA00D4D6C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9102889D288967EA00D4D6C4 /* ContentView.swift */; };
+		9102889E288967EA00D4D6C4 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9102889D288967EA00D4D6C4 /* InputView.swift */; };
 		910288A0288967EB00D4D6C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9102889F288967EB00D4D6C4 /* Assets.xcassets */; };
 		910288A3288967EB00D4D6C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910288A2288967EB00D4D6C4 /* Preview Assets.xcassets */; };
+		910288AB2889689500D4D6C4 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910288AA2889689500D4D6C4 /* Input.swift */; };
+		910288AD2889699000D4D6C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910288AC2889699000D4D6C4 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		91028898288967EA00D4D6C4 /* TheInputVentura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheInputVentura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9102889B288967EA00D4D6C4 /* TheInputVenturaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInputVenturaApp.swift; sourceTree = "<group>"; };
-		9102889D288967EA00D4D6C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9102889D288967EA00D4D6C4 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		9102889F288967EB00D4D6C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		910288A2288967EB00D4D6C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		910288A4288967EB00D4D6C4 /* TheInputVentura.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheInputVentura.entitlements; sourceTree = "<group>"; };
+		910288AA2889689500D4D6C4 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		910288AC2889699000D4D6C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		9102889A288967EA00D4D6C4 /* TheInputVentura */ = {
 			isa = PBXGroup;
 			children = (
+				910288AC2889699000D4D6C4 /* AppDelegate.swift */,
 				9102889B288967EA00D4D6C4 /* TheInputVenturaApp.swift */,
-				9102889D288967EA00D4D6C4 /* ContentView.swift */,
+				9102889D288967EA00D4D6C4 /* InputView.swift */,
+				910288AA2889689500D4D6C4 /* Input.swift */,
 				9102889F288967EB00D4D6C4 /* Assets.xcassets */,
 				910288A4288967EB00D4D6C4 /* TheInputVentura.entitlements */,
 				910288A1288967EB00D4D6C4 /* Preview Content */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9102889E288967EA00D4D6C4 /* ContentView.swift in Sources */,
+				910288AD2889699000D4D6C4 /* AppDelegate.swift in Sources */,
+				910288AB2889689500D4D6C4 /* Input.swift in Sources */,
+				9102889E288967EA00D4D6C4 /* InputView.swift in Sources */,
 				9102889C288967EA00D4D6C4 /* TheInputVenturaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
